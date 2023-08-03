@@ -46,7 +46,8 @@ const UserUpdateForm = () => {
 
   const updateUser = async (data) => {
     try {
-      const response = await axios.put("https://jsonplaceholder.typicode.com/users/" + user.id, data);
+      // const response = await axios.put("https://jsonplaceholder.typicode.com/users/" + user.id, data);
+      const response = await axios.put("http://localhost:8000/users/" + user.id, data);
       console.log("Response:", response);
       navigate("/");
       setError({

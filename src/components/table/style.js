@@ -24,14 +24,16 @@ export const Box = styled.div`
     align-items: center;
     align-content: center;
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
 `;
 export const Table = styled.table`
     display: block;
     overflow-x: scroll;
     overflow-y: scroll;
     border-spacing: 1px;
+    overflow-x: scroll;
+    width: 100%;
+    height: 600px;
+    padding: 5px;
 `;
 
 export const TRHead = styled.tr`
