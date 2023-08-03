@@ -34,7 +34,7 @@ const UserUpdateForm = () => {
   const handleCompanyChange = e => {
     setFormData((prevData) => ({
       ...prevData,
-      company: { name: e.target.value },
+      company: { ...prevData.company,name: e.target.value },
     }))
   };
 

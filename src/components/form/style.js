@@ -10,7 +10,6 @@ export const Box = styled.div`
 
 export const InnerBox = styled.div`
     display: block;
-    flex-direction: column;
     align-items; center;
     width: 100%;
 `;
@@ -39,6 +38,21 @@ export const Input = styled.input`
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  margin: 1px;
+`
+
+export const InnerBox2 = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items; center;
+    padding: 3px;
+`;
+export const Input2 = styled.input`
+width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 1px;
 `
 
 export const Button = styled.button`

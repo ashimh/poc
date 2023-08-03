@@ -8,6 +8,7 @@ function Navbar() {
             <CustomNav>
                 <Box>
                     <CustomLink to={"/"}>Home</CustomLink>
+                    <CustomLink to={"/add"}>Add User</CustomLink>
                 </Box>
             </CustomNav>
         </>
